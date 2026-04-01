@@ -1,45 +1,53 @@
-NÁZEV PROJEKTU: NEXUS EMBEDDED SYSTEMS PORTFOLIO
+# ⚡ NEXUS — Embedded Systems Portfolio
 
-POPIS PROJEKTU (ČEŠTINA)
-Nexus je profesionální webové portfolio zaměřené na prezentaci projektů v oblasti embedded systémů, návrhu hardwaru a vývoje firmwaru. Stránka slouží jako digitální vizitka pro prezentaci technických dovedností a realizovaných řešení.
+> *"Kde hardware mluví a firmware poslouchá."*
 
-KLÍČOVÉ FUNKCE
+Profesionální portfolio zaměřené na embedded systémy, návrh hardwaru a vývoj firmwaru. Tmavý technologický design s interaktivními efekty — protože nudné portfolio nikdo nečte.
 
-Moderní UI: Tmavý technologický design s interaktivními částicovými efekty na pozadí.
+---
 
-Quasar Framework: Využití profesionální knihovny komponent pro zajištění stability a rychlosti.
+## ⚡ Technologie
 
-Responzivní ovládání: Implementace mobilního bočního menu pro snadný přístup z telefonů.
+| Vrstva | Technologie |
+|--------|------------|
+| Frontend | Vue.js 3 + Quasar Framework |
+| Animace | GSAP + ScrollTrigger |
+| Efekty pozadí | tsparticles |
+| Stylování | SCSS + Quasar komponenty |
 
-Interaktivní moduly: Detailní zobrazení projektů prostřednictvím animovaných dialogových oken.
+---
 
-TECHNOLOGICKÝ STACK
+## 🚀 Hlavní funkce
 
-Základní framework: Vue.js 3 a Quasar Framework.
+**🎨 Technologický dark UI**
+Interaktivní částicové pozadí, neonové akcenty a design který vypadá jako z vědecké fikce — ale běží v prohlížeči.
 
-Animace: Knihovna GSAP pro plynulé přechody a ScrollTrigger efekty.
+**📱 Responzivní na vše**
+Vlastní mobilní drawer menu, optimalizace pro všechny velikosti obrazovek. Funguje stejně dobře na telefonu jako na 4K monitoru.
 
-Grafické efekty: tsparticles pro interaktivní pozadí.
+**🪟 Interaktivní modaly**
+Detailní zobrazení každého projektu v animovaných dialogových oknech. Žádné přesměrování, vše plynule na jedné stránce.
 
-PROJECT TITLE: NEXUS EMBEDDED SYSTEMS PORTFOLIO
+**📬 Kontaktní formulář**
+Skutečně funkční kontakt s Matrix terminál animací při odeslání. Easter egg pro zvídavé návštěvníky. 🤫
 
-PROJECT DESCRIPTION (ENGLISH)
-Nexus is a professional web portfolio dedicated to showcasing projects in embedded systems, hardware design, and firmware development. The site acts as a digital business card to present technical skills and implemented solutions.
+**⚡ GSAP animace**
+Plynulé ScrollTrigger přechody při scrollování. Protože statické portfolio je z roku 2015.
 
-KEY FEATURES
+---
 
-Modern UI: High-tech dark theme featuring interactive background particle effects.
+## 🛠️ Instalace
+```bash
+npm install
+npm run dev
+```
 
-Quasar Framework: Implementation of professional UI components for maximum stability and performance.
+---
 
-Responsive Controls: Custom-built mobile drawer menu for seamless access on smartphones.
+## 📸 Demo
 
-Interactive Modules: Detailed project showcases using animated modal dialogs.
+🔗 [Otevřít portfolio](https://fc777q-5173.csb.app/)
 
-TECH STACK
+---
 
-Core framework: Vue.js 3 and Quasar Framework.
-
-Animations: GSAP library for smooth transitions and ScrollTrigger effects.
-
-Graphic effects: tsparticles for interactive background elements.
+*Vytvořeno s příliš mnoho kafe, VS Code a vzpomínkami na to, kdy ještě nespánek nebyl running joke.*
